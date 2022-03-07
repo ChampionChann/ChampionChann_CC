@@ -23,6 +23,6 @@ jobs:
         if: env.PAT 
         with: 
           source_repo: "https://github.com/ccwav/QLScript2.git" # 上游仓库地址
-          source_branch: "master" 
+          source_branch: "main" 
           destination_branch: "master" # 按照自己仓库分支名称修改
           github_token: ${{ secrets.PAT }} 
